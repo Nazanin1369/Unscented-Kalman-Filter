@@ -1,5 +1,7 @@
 # Unscented Kalman Filter for Self-Driving Cars in C++
 
+![Preview](./data/UKFPIC.png "Unscented Kalman Filter")
+
 This project utilizes an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project reburic. 
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
@@ -31,19 +33,6 @@ OUTPUT: values provided by the c++ program to the simulator
 ["rmse_vy"]
 
 ---
-
-## Other Important Dependencies
-* cmake >= 3.5
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
-* make >= 4.1 (Linux, Mac), 3.81 (Windows)
-  * Linux: make is installed by default on most Linux distros
-  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
-  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
-* gcc/g++ >= 5.4
-  * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
-  * Windows: recommend using [MinGW](http://www.mingw.org/)
-
 ## Basic Build Instructions
 
 1. Clone this repo.
@@ -51,6 +40,10 @@ OUTPUT: values provided by the c++ program to the simulator
 3. Compile: `cmake .. && make`
 4. Run it: `./UnscentedKFls` Previous versions use i/o from text files.  The current state uses i/o
 from the simulator.
+
+
+## Demo
+You can view a demo of running code here: http://g.recordit.co/WpR0h3Wdx9.gif
 
 ## Code Style
 
